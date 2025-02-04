@@ -237,3 +237,21 @@ footer ul{
   justify-content: center;
   flex-direction: row;
 }
+
+/*Classi di hovering */
+
+.img-pr:hover .img1{
+  display: none;
+}
+
+.img-pr .img2{
+  display: none;
+}
+
+.img-pr:hover .img2{
+  display: block;
+}
+
+.product:hover{
+  cursor: pointer;
+}
