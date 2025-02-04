@@ -87,6 +87,12 @@ header nav{
   padding: 9px;
 }
 
+.img-pr{
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+}
+
 
 header nav ul {
     list-style: none;
@@ -119,21 +125,56 @@ header nav ul {
 
 .product {
     border: 1px solid #ddd;
-    padding: 10px;
-    width: 250px;
+    width: 270px;
+    height: 468px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-pr{
+  width: 100%;
+  gap: auto;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-sold{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .discount {
-    color: red;
+    color: white;
     font-weight: bold;
+    background-color: red;
+    padding: 10px;
 }
 
 .sustainability {
     background-color: green;
     color: white;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 9px;
+}
+
+.text-bt{
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  text-align: left;
+  width: 100%;
 }
 
 .price {
