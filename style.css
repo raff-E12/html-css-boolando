@@ -1,0 +1,61 @@
+/* Reset generale e adattamento dei relativi box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 , p{
+    font-weight: normal;
+    color: #000;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  button {
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
