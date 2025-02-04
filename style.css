@@ -79,7 +79,7 @@ header {
 }
 
 header nav{
-  width: 50%;
+  width: 42%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,6 +99,15 @@ header nav ul {
     width: 100%;
 }
 
+.icons{
+  border: 1px solid white;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  padding: 9px;
+}
 
 .products {
     display: flex;
@@ -107,6 +116,7 @@ header nav ul {
     gap: 20px;
     padding: 20px;
 }
+
 .product {
     border: 1px solid #ddd;
     padding: 10px;
