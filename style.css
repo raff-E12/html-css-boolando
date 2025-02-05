@@ -158,6 +158,7 @@ header nav ul {
   gap: 10px;
   justify-content: center;
   align-items: center;
+  z-index: 100;
 }
 
 .discount {
@@ -245,16 +246,37 @@ footer ul{
 /*Classi di hovering */
 
 .img-pr:hover .img1{
-  display: none;
+  opacity: 100;
+  z-index: 1;
+  transition: all ease-in .3s;
 }
 
 .img-pr .img2{
-  display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
 }
 
 .img-pr:hover .img2{
-  display: block;
+  opacity: 100;
+  z-index: 1;
+  transition: all ease-in 1s;
 }
+
+.img-pr:not(hover) .img1{
+  opacity: 100;
+  z-index: 1;
+  transition: all ease-in .3s;
+}
+
+.img-pr:not(hover) .img2{
+  opacity: 0;
+  z-index: -1;
+  transition: all ease-in .3s;
+}
+
 
 .product:hover{
   cursor: pointer;
